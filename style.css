@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    /*   background-image: url("https://w0.peakpx.com/wallpaper/639/404/HD-wallpaper-%E2%80%A2%E1%83%A6%E2%9C%BF%E1%83%A6%E2%80%A2-art-fantasy-other-world-fantasy-land.jpg"); */
 }
 
 #tentacles {
@@ -32,7 +33,9 @@ body {
     text-align: center;
 }
 
-#num-contributions, #total-raised, #num-games {
+#num-contributions,
+#total-raised,
+#num-games {
     font-size: 50px;
 }
 
@@ -62,14 +65,44 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
+#interactive-elems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search {
+    display: flex;
+    width: 45%;
+    min-width: 400px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    align-self: center;
+}
+
 #button-container {
-    text-align: center;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
 }
 
 button {
     font-family: 'Cabin';
     border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
