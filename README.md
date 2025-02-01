@@ -1,4 +1,4 @@
-# WEB102 Prework - _Name of App Here_
+# WEB102 Prework - _SeaMonster_
 
 Submitted by: **Meron Abera**
 
@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Live search feature, modifies search results as user types
+- [x] Live search feature, modifies search results as user types
 
 ## Video Walkthrough
 
@@ -27,12 +27,7 @@ Here's a walkthrough of implemented features:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
-
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with FreeConvert
 
 ## Notes
 
